@@ -1,0 +1,92 @@
+[
+    {
+       "id":1,
+       "name":"Tata Nexon",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/d44ae1d555cfe2dd4b499c3e75f2fcda0504a6de.JPG?1654862797",
+       "rentperhour":350,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":2,
+       "name":"Renault Kwid",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/6b6934b244bef5a3fdef3976171b05cb3fec155e.JPG?1638530676",
+       "rentperhour":325,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":3,
+       "name":"Maruthi Dzire",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/524fda673d85d7affc94f9c54ddb2ed1219d3a4d.JPG?1638612892",
+       "rentperhour":350,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":4,
+       "name":"Maruthi Wagon R",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/57b1b1b9180a56fba0156135ea6dc8e9f058303d.jpg?1621260558",
+       "rentperhour":300,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":5,
+       "name":"Hyundai Verna",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/8ceecf356071adc2cf90beb3877b3e14b77031a6.jpg?1615961701",
+       "rentperhour":400,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":6,
+       "name":"Datsun Redi-GO",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/505efec88be6f25bb3ffabbd6c6107629c88e169.jpg?1621260721",
+       "rentperhour":350,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":7,
+       "name":"Renault Triber",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/c5d25b436da0aeb9ca1c25c86d8e85a1e9115aaf.JPG?1623135458",
+       "rentperhour":370,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":7
+    },
+    {
+       "id":8,
+       "name":"Maruthi Breeza",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/6a75117e054e7d3bbe9ff6e431008679994c1d71.png?1584525114",
+       "rentperhour":300,
+       "fueltype":"Disel",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":9,
+       "name":"Hyundai Eon",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/6c600fdc587df00ee65b17e3e0a4bce67ec31046.JPG?1638531593",
+       "rentperhour":280,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":5
+    },
+    {
+       "id":10,
+       "name":"Maruthi Ertiga",
+       "image":"https://zoomcar-assets.zoomcar.com/photographs/original/efa1e98bbb81150cf57c98df093de5899dcafcd5.jpg?1640674575",
+       "rentperhour":380,
+       "fueltype":"Petrol",
+       "bookedtimeslot":"",
+       "capacity":7
+    }
+ ]
