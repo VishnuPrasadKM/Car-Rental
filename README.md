@@ -3,11 +3,11 @@ Car Rental MERN App
 
 ### dependencies
 #server
-  `cors`
-  `dotenv`
-  `express`
-  `mongoose`
-  `nodemon`
+  `cors
+  dotenv
+  express
+  mongoose
+  nodemon`
  #project
     `@redux-devtools/extension`
     `antd`
