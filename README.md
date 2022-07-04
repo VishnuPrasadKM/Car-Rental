@@ -1,14 +1,14 @@
 # Car-Rental
 Car Rental MERN App
 
-### dependencies
-#server
-  `cors
-  dotenv
-  express
-  mongoose
-  nodemon`
- #project
+### Dependencies
+  ### server
+  `cors`
+  `dotenv`
+  `express`
+  `mongoose`
+  `nodemon`
+  ### project
     `@redux-devtools/extension`
     `antd`
     `axios`
@@ -23,4 +23,4 @@ Car Rental MERN App
     `redux-thunk`
     `web-vitals`
 ###
-Create a `.env` file or change to your `MongoDb Url` and if needed change port number and your are good to Go
+Create a `.env` file or change to your `MongoDb Url`
