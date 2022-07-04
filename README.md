@@ -24,3 +24,6 @@ Car Rental MERN App
     `web-vitals`
 ###
 Create a `.env` file or change to your `MongoDb Url`
+
+###
+After installing dependencies run npm start on project side and nodemon server on client side
