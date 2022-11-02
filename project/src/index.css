@@ -1,0 +1,270 @@
+/* Dela Gothic One font for Logo */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/* Body font */
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Dela+Gothic+One&display=swap');
+
+html,body{
+  height: 100vh;
+}
+body {
+  margin: 0;
+  font-family: 'Carme', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.boxShadow1{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+  /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+}
+
+.boxShadow2{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight:bold;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+#logo{
+  font-family: 'Dela Gothic One', cursive;
+  color: rgb(107, 122, 189);
+}
+
+.header{
+  background-color: beige;
+  color:blue;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  padding: 0.5vh;
+  background-color:beige;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px, rgba(0, 0, 0, 0.24) 1px 0px 5px;
+}
+
+.bookings{
+  background-color: #7cfcd13a;
+  max-width: 100%;
+  margin: 0 2px!important;
+  min-height: 100vh;
+}
+.bookings .rowedit{
+  margin-left: 0;
+  margin-right: 0;
+}
+.colStyle{
+  background-color: wheat;
+}
+p{
+  margin: 5px !important;
+  text-align: left;
+  padding: 0;
+}
+
+.load{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.welcome{
+  max-height: 100vh;
+  padding-top: 5vh;
+}
+.login{
+  padding-top: 25vh;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100vh;
+  background-image: url('./Components/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F0FFF0;
+}
+.register{
+   padding-top: 8vh!important;
+}
+.formfield{
+  border:0px solid black;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding: 25px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color:#424040c2;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 10px 12px #424040;
+}
+.login label{
+  font-size:15px !important;
+  font-weight:500;
+  color:aliceblue!important;
+}
+.btn1{
+  padding: 8px 12px;
+  border-color:transparent;
+  border-radius: 3px;
+  /* border-s */
+}
+.btn1:hover{
+  /* box-shadow: 1px 1px #0dcaf0 ; */
+  /* background-color: whitesmoke; */
+  color: rgb(20, 4, 167);
+  border-color: rgb(181, 255, 32);
+  border-radius: 3px;
+}
+.btn2{
+  box-shadow: none !important;
+  background-color : white;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.btn2:focus{
+  border: none;
+}
+form a{
+  padding-top: 5px;
+  text-decoration: none;
+  color: rgb(0, 255, 234);
+  font-size: 22xp;;
+  font-weight: 500;
+}
+form a:hover{
+  /* text-decoration: none; */
+  color: white;
+}
+.home{
+  max-width: 100%;
+  justify-content: space-between;
+}
+.btn:hover{
+  color:black !important;
+  border:1px solid #424040 !important;
+  background-color: white !important;
+}
+.btn{
+  color: #424040 ;
+  background-color: beige!important;
+}
+.carimg{
+  height: 180px;
+  border-radius: 10px;
+  width: 290px
+}
+/* .car{
+  background-color: #5cdb95;
+} */
+
+.imgAlign{
+  text-align: center;
+}
+.removecar:hover{
+  /* border: 3px solid red; */
+  box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 20px 4px;
+}
+.bookcarimg{
+  height: 60vh;
+  width: 98%;
+  border-radius: 5px;
+}
+
+@media(max-width: 375px){
+  .carimg{
+    width: 295px;
+    height: 237px;
+  }
+  .bookcartime{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .footer{
+    display: none;
+  }
+}
+@media(min-width: 375px) and(max-width: 425px){
+  .carimg{
+    width: 150px;
+    height: 237px;
+  }
+  .footer{
+    display: none;
+  }
+
+}
+/* @media (max-width: 575.98px) { 
+  .carimg{
+    width: 500px;
+    height: 350px;
+  } */
+ /* } */
+@media (max-width: 767.98px) { 
+  .bookcarContext{
+    text-align: center;
+  }
+  .bookcartime{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+ }
+ @media (max-width: 991.98px) { 
+  .bookcarimg{
+    padding-top: 3px;
+    width:100%;
+    height:80vh
+  }
+  .bookcarinfo{
+    text-align: center;
+  }
+  .bookcartime{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    flex-wrap: nowrap;
+  }
+  .bookingcartotal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    
+  }
+ }
